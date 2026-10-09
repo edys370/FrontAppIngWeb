@@ -1,0 +1,21 @@
+{
+  "servers": {
+    "stitch": {
+      "command": "npx",
+      "args": [
+        "stitch-mcp",
+        "--project-id",
+        "883714642416664840",
+        "--output-dir",
+        "./stitch-output",
+        "--screens",
+        "4192102401428898962,8f42d2abfb9744d19207f0bc6423cb20,27a176c309c94514b1e58bac286d1177,1dfda326628c460c8aceed3909feb061,e0f4564af64f40baba483fffe3006abb"
+      ],
+      "disabled": false,
+      "env": {
+        "GOOGLE_CLOUD_PROJECT": "883714642416664840",
+        "STITCH_PROJECT_ID": "883714642416664840"
+      }
+    }
+  }
+}

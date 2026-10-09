@@ -1,0 +1,5 @@
+.empty-state { text-align: center; padding: 48px 16px; color: #475569; }
+.empty-icon { color: #79747E; margin-bottom: 16px; }
+.empty-title { font-family: var(--font-heading); font-size: 20px; color: var(--color-foreground); margin-bottom: 8px; }
+.empty-desc { font-family: var(--font-body); font-size: 14px; margin-bottom: 24px; }
+.empty-action { display: inline-block; }

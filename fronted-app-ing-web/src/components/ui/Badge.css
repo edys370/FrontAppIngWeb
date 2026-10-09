@@ -1,0 +1,5 @@
+.badge { display: inline-flex; align-items: center; padding: 4px 12px; border-radius: 9999px; font-size: 12px; font-weight: 600; font-family: var(--font-body); letter-spacing: 0.025em; }
+.badge-computacion { background: var(--category-computacion); color: #fff; }
+.badge-accesorios { background: var(--category-accesorios); color: #fff; }
+.badge-monitores { background: var(--category-monitores); color: #fff; }
+.badge-general { background: var(--category-general); color: #fff; }

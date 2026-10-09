@@ -1,0 +1,7 @@
+.table-container { overflow-x: auto; border-radius: 12px; border: 1px solid var(--color-border); background: #fff; }
+.table { width: 100%; border-collapse: collapse; font-family: var(--font-body); }
+.table th { background: #F8FAFC; padding: 12px 16px; text-align: left; font-size: 12px; font-weight: 600; color: #475569; text-transform: uppercase; letter-spacing: 0.05em; border-bottom: 2px solid #DBEAFE; }
+.table td { padding: 12px 16px; font-size: 14px; color: #1E293B; border-bottom: 1px solid #E2E8F0; }
+.table tbody tr:hover { background: #F8FAFC; }
+.table tbody tr:nth-child(even) { background: #F8FAFC; }
+.table tbody tr:nth-child(even):hover { background: #E9EEF6; }

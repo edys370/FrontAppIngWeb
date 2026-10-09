@@ -1,0 +1,16 @@
+# Configuración de Caddy como Proxy Inverso para el Microservicio
+:8080 {
+	# Registro de accesos
+	log {
+		output stdout
+		format console
+	}
+
+	# Proxy inverso con upstream configurable:
+	# - Por defecto (host local): localhost:3000
+	# - En Docker Compose: se sobreescribe con UPSTREAM=products-api:3000
+	reverse_proxy {$UPSTREAM:localhost:3000} {
+		header_up Host {host}
+		header_up X-Real-IP {remote_host}
+	}
+}

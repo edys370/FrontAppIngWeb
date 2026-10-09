@@ -1,0 +1,51 @@
+:root {
+  /* Color Palette (UI/UX Pro Max + Stitch DESIGN.md) */
+  --color-primary: #1E40AF;
+  --color-on-primary: #FFFFFF;
+  --color-secondary: #3B82F6;
+  --color-on-secondary: #000000;
+  --color-accent: #D97706;
+  --color-on-accent: #000000;
+  --color-background: #F8FAFC;
+  --color-foreground: #1E3A8A;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #1E3A8A;
+  --color-muted: #E9EEF6;
+  --color-muted-foreground: #475569;
+  --color-border: #DBEAFE;
+  --color-destructive: #DC2626;
+  --color-on-destructive: #FFFFFF;
+  --color-ring: #1E40AF;
+
+  /* Category Badges & Filters */
+  --category-computacion: #1A237E;
+  --category-accesorios: #26A69A;
+  --category-monitores: #7C4DFF;
+  --category-general: #6D6E70;
+
+  /* Typography */
+  --font-heading: 'Fira Code', monospace;
+  --font-body: 'Fira Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-display: 32px;
+  --font-h1: 24px;
+  --font-h2: 20px;
+  --font-h3: 18px;
+  --font-body-size: 16px;
+  --font-small: 14px;
+  --font-caption: 12px;
+
+  /* Spacing Grid (8px Grid) */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+
+  /* Shadow Depths */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.15);
+}

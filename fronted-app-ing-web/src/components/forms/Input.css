@@ -1,0 +1,8 @@
+.input-group { margin-bottom: 16px; }
+.input-label { font-family: var(--font-body); font-size: 14px; font-weight: 500; color: var(--color-foreground); margin-bottom: 6px; display: block; }
+.input { padding: 12px 16px; border: 1px solid #E2E8F0; border-radius: 8px; font-size: 16px; font-family: var(--font-body); transition: border-color 200ms ease, box-shadow 200ms ease; background: #fff; color: #1E293B; width: 100%; box-sizing: border-box; }
+.input:focus { border-color: var(--color-primary); outline: none; box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1); }
+.input-error { border-color: #DC2626; }
+.input-error:focus { box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.1); }
+.input-hint { font-size: 12px; color: #475569; margin-top: 4px; display: block; }
+.input-error-text { font-size: 12px; color: #DC2626; margin-top: 4px; display: block; }

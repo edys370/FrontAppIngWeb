@@ -1,0 +1,4 @@
+.card { background: var(--color-card); border-radius: 12px; padding: 24px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); transition: all 200ms ease; border: 1px solid var(--color-border); }
+.card:hover { box-shadow: 0 10px 15px rgba(0,0,0,0.1); transform: translateY(-2px); }
+.card-header { font-family: var(--font-heading); font-size: 18px; font-weight: 600; color: var(--color-foreground); margin-bottom: 12px; }
+.card-body { font-family: var(--font-body); font-size: 14px; color: var(--color-muted-foreground); line-height: 1.5; }

@@ -1,0 +1,86 @@
+.app-bar {
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  box-shadow: var(--shadow-sm);
+}
+
+.app-bar-container {
+  max-width: 1280px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 var(--space-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.app-bar-brand {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.app-bar-logo {
+  color: #FFFFFF;
+}
+
+.app-bar-title {
+  font-family: var(--font-heading);
+  font-size: var(--font-h3);
+  font-weight: 600;
+  color: #FFFFFF;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.app-bar-nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.nav-link {
+  font-family: var(--font-body);
+  font-size: var(--font-small);
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: all 200ms ease;
+}
+
+.nav-link:hover {
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.12);
+  text-decoration: none;
+}
+
+.nav-link-active {
+  color: #000000;
+  background: var(--color-accent);
+  font-weight: 600;
+}
+
+.nav-link-active:hover {
+  color: #000000;
+  background: var(--color-accent);
+  opacity: 0.95;
+}
+
+@media (max-width: 640px) {
+  .app-bar-container {
+    padding: 0 var(--space-md);
+  }
+  .app-bar-title {
+    font-size: 16px;
+  }
+  .nav-link {
+    padding: 6px 8px;
+    font-size: 13px;
+  }
+}

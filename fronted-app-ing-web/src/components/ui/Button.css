@@ -1,0 +1,38 @@
+.btn {
+  font-family: 'Fira Sans', sans-serif;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.btn-primary {
+  background: #D97706;
+  color: #000000;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: #1E40AF;
+  border-color: #1E40AF;
+}
+.btn-secondary:hover {
+  background: #1E40AF;
+  color: #FFFFFF;
+}
+
+.btn-danger {
+  background: #DC2626;
+  color: #FFFFFF;
+}
+.btn-danger:hover {
+  background: #B91C1C;
+}
